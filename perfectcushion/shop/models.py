@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.text import slugify
 
+
 # Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length=250, unique=True)
